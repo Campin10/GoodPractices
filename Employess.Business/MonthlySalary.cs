@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Employess.Business
+namespace Employess.Core
 {
      class MonthlySalary : Contract
     {
-        public override int AnnualSalary(int MonthlySalary)
+        public override int AnnualSalary(int Salary)
         {
-            return MonthlySalary * 12;
+            return Salary * 12;
         }
     }
 }

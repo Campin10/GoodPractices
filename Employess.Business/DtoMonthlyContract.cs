@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Employess.Business
+namespace Employess.Core
 {
     public class DtoMonthlyContract
     {
-        public string name { get; set; }
-        public string contractTypeName { get; set; }
-        public string roleName { get; set; }
-        public string roleDescription { get; set; }
-        public int monthlySalary { get; set; }
-        public int AnnualSalary { get { return Creator.CreateContract(Creator.Monthly_Salary).AnnualSalary(monthlySalary); } }
+        public string Name { get; set; }
+        public string ContractTypeName { get; set; }
+        public string RoleName { get; set; }
+        public string RoleDescription { get; set; }
+        public decimal Salary { get; set; }
+        public decimal AnnualSalary { get; set; }
     }
    
 }

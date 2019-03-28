@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Threading.Tasks;
 
 namespace Employess.Data
 {
     public interface IServices
     {
-        List<Employe> CallService(dynamic Json, string Config);
+        Task<ResponseServices> CallService(dynamic Json, string Config);
     }
 }
 

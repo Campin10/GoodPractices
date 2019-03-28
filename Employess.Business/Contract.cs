@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Employess.Business
+namespace Employess.Core
 {
     public abstract class Contract
     {

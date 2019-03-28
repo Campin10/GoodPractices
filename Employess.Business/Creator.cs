@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Employess.Business
+namespace Employess.Core
 {
-    public class Creator
+    public static class Creator 
     {
-        public const int Hourly_Salary = 1;
-        public const int Monthly_Salary = 2;
-
-        public static Contract CreateContract(int TypeContract)
+        public static Contract CreateContract(string TypeContract)
         {
-            switch(TypeContract)
+              switch (TypeContract)
             {
-                case Hourly_Salary:
+                case "HourlySalaryEmployee":
                     return new HourlySalary();
-                case Monthly_Salary:
+                case "MonthlySalaryEmployee":
                     return new MonthlySalary();
                 default: return null;
             }

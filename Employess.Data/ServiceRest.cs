@@ -1,47 +1,45 @@
 ﻿using System;
+using System.Threading.Tasks;
+using System.Net.Http;
+using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Employess.Data
 {
     public class ServiceRest : IServices
     {
-        private ISoaRest _ISoaRest;
-        //private IHttpClient _IHttpClient;
-        //public static HttpClient client;
-        public ServicesSoaRest(ISoaRest ISoaRest)
+
+        public async Task<ResponseServices> CallService(dynamic Json, string Url)
         {
-            _ISoaRest = ISoaRest;
-
-        }
-        public List<Employe> CallService(dynamic Json, string Config)
-        {
-            client = _IHttpClient.getHttpClient();
-            //dynamic mensaje = _ISoaMessage.BuildMessage(Json, addData);
-            var result = _ISoaRest.callSoaPost("", Config, client).Result;
-            //if (!result.State)
-            //{
-            //    try
-            //    {
-            //        var stack = CompileTools.GetReflectionData(result.Message);
-            //        LogTrace.WriteLogError(stack.Stack, Json, ClassName: stack.ClassName, Method: stack.Method, Line: stack.Line);
-            //    }
-            //    catch (Exception ex)
-
-            //    {
-            //        result.State = false;
-            //        result.Message = ex.Message;
-            //    }
-            //}
-
+            HttpClient client = new HttpClient();
+            ResponseServices result = new ResponseServices(); 
+            try
+            {
+                client.Timeout = TimeSpan.FromMilliseconds(3000);
+                var response = await client.GetAsync(Url);
+                if (response.IsSuccessStatusCode)
+                {
+                    var data = await response.Content.ReadAsStringAsync();
+                    result.State = true;
+                    result.Message = "OK";
+                    result.Data = JsonConvert.DeserializeObject<List<Employe>>(data);
+                }
+                else
+                {
+                    result.State = false;
+                    result.Message = response.RequestMessage.ToString();
+                }
+                return result;
+            }
+            catch (Exception ex)
+            {
+                result.State = false;
+                result.Message = ex.Message;
+            }
             return result;
         }
 
-        //public void callLogService(LogHandlerModel logModel, Authentication Config)
-        //{
-        //    string json = JsonConvert.SerializeObject(logModel);
-        //    client = _IHttpClient.getHttpClient();
-        //    _ISoaRest.callLogSoaPost(json, Config, client);
-        //}
+
+
     }
 }

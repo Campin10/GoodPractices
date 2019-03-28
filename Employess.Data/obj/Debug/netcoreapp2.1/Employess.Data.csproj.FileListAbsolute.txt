@@ -1,0 +1,27 @@
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.deps.json
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.dll
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.csprojAssemblyReference.cache
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.csproj.CoreCompileInputs.cache
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.AssemblyInfoInputs.cache
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.AssemblyInfo.cs
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.pdb
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.dll
+C:/Users/ext_edmojica/Documents/Visual Studio 2017/GoodPractices/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.pdb
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.deps.json
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.dll
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.pdb
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.csprojAssemblyReference.cache
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.csproj.CoreCompileInputs.cache
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.AssemblyInfoInputs.cache
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.AssemblyInfo.cs
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.dll
+C:/Users/edisonmojica/source/repos/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.pdb
+/Users/edisonmojica/Downloads/Employess/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.deps.json
+/Users/edisonmojica/Downloads/Employess/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.dll
+/Users/edisonmojica/Downloads/Employess/Employess.Data/bin/Debug/netcoreapp2.1/Employess.Data.pdb
+/Users/edisonmojica/Downloads/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.csprojAssemblyReference.cache
+/Users/edisonmojica/Downloads/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.csproj.CoreCompileInputs.cache
+/Users/edisonmojica/Downloads/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.AssemblyInfoInputs.cache
+/Users/edisonmojica/Downloads/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.AssemblyInfo.cs
+/Users/edisonmojica/Downloads/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.dll
+/Users/edisonmojica/Downloads/Employess/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.pdb
