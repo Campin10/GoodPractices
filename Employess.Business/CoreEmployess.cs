@@ -17,8 +17,8 @@ namespace Employess.Core
             {
                 Name = empl.name,
                 ContractTypeName = empl.contractTypeName,
-                Salary = empl.monthlySalary,
-                AnnualSalary = Creator.CreateContract(empl.contractTypeName).AnnualSalary(1000),
+                Salary = empl.contractTypeName == "MonthlySalaryEmployee" ? empl.monthlySalary : empl.hourlySalary,
+                AnnualSalary = Creator.CreateContract(empl.contractTypeName).AnnualSalary(empl.contractTypeName == "MonthlySalaryEmployee" ? empl.monthlySalary : empl.hourlySalary),
                 RoleName = empl.roleName,
                 RoleDescription = empl.roleDescription
             }).ToList();

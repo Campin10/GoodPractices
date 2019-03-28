@@ -1,15 +1,13 @@
 ﻿<Properties StartupConfiguration="{095604D7-3D04-477D-A123-28FF236C759C}|Default">
   <MonoDevelop.Ide.ItemProperties.Employess.Web PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.employess PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Employess.Business/HourlySalary.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Employess.Business/CoreEmployess.cs">
     <Files>
       <File FileName="employess/Controllers/SampleDataController.cs" Line="23" Column="15" />
       <File FileName="Employess.Data/ServiceRest.cs" Line="19" Column="59" />
-      <File FileName="Employess.Business/CoreEmployess.cs" Line="15" Column="89" />
+      <File FileName="Employess.Business/CoreEmployess.cs" Line="16" Column="59" />
       <File FileName="Employess.Data/Employe.cs" Line="13" Column="31" />
-      <File FileName="Employess.Business/Creator.cs" Line="8" Column="6" />
-      <File FileName="Employess.Business/Contract.cs" Line="6" Column="2" />
-      <File FileName="Employess.Business/HourlySalary.cs" Line="5" Column="25" />
+      <File FileName="Employess.Business/Creator.cs" Line="15" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +18,7 @@
               <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="Employess.Core" expanded="True">
-              <Node name="HourlySalary.cs" selected="True" />
+              <Node name="CoreEmployess.cs" selected="True" />
             </Node>
             <Node name="Employess.Data" expanded="True" />
           </Node>

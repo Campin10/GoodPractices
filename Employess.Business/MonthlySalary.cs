@@ -6,7 +6,7 @@ namespace Employess.Core
 {
      class MonthlySalary : Contract
     {
-        public override int AnnualSalary(int Salary)
+        public override decimal AnnualSalary(decimal Salary)
         {
             return Salary * 12;
         }

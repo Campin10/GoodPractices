@@ -6,6 +6,6 @@ namespace Employess.Core
 {
     public abstract class Contract
     {
-        public abstract int AnnualSalary(int Salary);
+        public abstract decimal AnnualSalary(decimal Salary);
     }
 }
