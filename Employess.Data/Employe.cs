@@ -6,6 +6,7 @@ namespace Employess.Data
 {
     public class Employe
     {
+        public int id { get; set; }
         public string name { get; set; }
         public string contractTypeName { get; set; }
         public string roleName { get; set; }

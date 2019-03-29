@@ -8,4 +8,7 @@
     <ProjectReference Include="..\Employess.Data\Employess.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Factory\" />
+  </ItemGroup>
 </Project>

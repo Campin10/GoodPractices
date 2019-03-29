@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Employess.Business;
+using Employess.Core;
 
 namespace employess.Controllers
 {
@@ -16,11 +16,9 @@ namespace employess.Controllers
         };
 
         [HttpGet("[action]")]
-     
-
-        public int WeatherForecasts()
+        public int GetEmployess()
         {
-            var data = Creator.CreateContract(Creator.Monthly_Salary).AnnualSalary(1000);
+            List<DtoEmployess> dataEmployess;
             return 1;
         }
 

@@ -7,14 +7,14 @@ namespace Employess.Core
 {
     public class CoreEmployess
     {
-        ServiceRest _serviceRest;
-       
-        public List<DtoMonthlyContract> GetEmployess() {
-            List<DtoMonthlyContract> result = new List<DtoMonthlyContract>();
-            _serviceRest = new ServiceRest();
-            List<Employe> data = (_serviceRest.CallService("", "http://masglobaltestapi.azurewebsites.net/api/Employees")).Result.Data;
-            result = data.Select(empl => new DtoMonthlyContract
+        ServiceRest _serviceRest = new ServiceRest();
+
+        public List<DtoEmployess> GetEmployessData() {
+            List<DtoEmployess> result = new List<DtoEmployess>();
+            List<Employe> data = (_serviceRest.CallService("http://masglobaltestapi.azurewebsites.net/api/Employees")).Result.Data;
+            result = data.Select(empl => new DtoEmployess
             {
+                Id = empl.id,
                 Name = empl.name,
                 ContractTypeName = empl.contractTypeName,
                 Salary = empl.contractTypeName == "MonthlySalaryEmployee" ? empl.monthlySalary : empl.hourlySalary,
@@ -24,7 +24,6 @@ namespace Employess.Core
             }).ToList();
             return result;
         }
-
 
     }
 }

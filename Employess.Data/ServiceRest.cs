@@ -9,13 +9,13 @@ namespace Employess.Data
     public class ServiceRest : IServices
     {
 
-        public async Task<ResponseServices> CallService(dynamic Json, string Url)
+        public async Task<ResponseServices> CallService(string Url)
         {
             HttpClient client = new HttpClient();
             ResponseServices result = new ResponseServices(); 
             try
             {
-                client.Timeout = TimeSpan.FromMilliseconds(3000);
+                client.Timeout = TimeSpan.FromMilliseconds(6000);
                 var response = await client.GetAsync(Url);
                 if (response.IsSuccessStatusCode)
                 {
