@@ -58,3 +58,15 @@ C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employ
 /Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csproj.CopyComplete
 /Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.dll
 /Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.pdb
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\bin\Debug\netcoreapp2.1\Employess.Core.deps.json
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\bin\Debug\netcoreapp2.1\Employess.Core.dll
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\bin\Debug\netcoreapp2.1\Employess.Core.pdb
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\bin\Debug\netcoreapp2.1\Employess.Data.dll
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\bin\Debug\netcoreapp2.1\Employess.Data.pdb
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\obj\Debug\netcoreapp2.1\Employess.Core.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\obj\Debug\netcoreapp2.1\Employess.Core.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\obj\Debug\netcoreapp2.1\Employess.Core.AssemblyInfoInputs.cache
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\obj\Debug\netcoreapp2.1\Employess.Core.AssemblyInfo.cs
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\obj\Debug\netcoreapp2.1\Employess.Core.csproj.CopyComplete
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\obj\Debug\netcoreapp2.1\Employess.Core.dll
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Business\obj\Debug\netcoreapp2.1\Employess.Core.pdb

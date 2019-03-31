@@ -43,3 +43,12 @@ C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employ
 /Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.AssemblyInfo.cs
 /Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.dll
 /Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Data/obj/Debug/netcoreapp2.1/Employess.Data.pdb
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\bin\Debug\netcoreapp2.1\Employess.Data.deps.json
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\bin\Debug\netcoreapp2.1\Employess.Data.dll
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\bin\Debug\netcoreapp2.1\Employess.Data.pdb
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\obj\Debug\netcoreapp2.1\Employess.Data.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\obj\Debug\netcoreapp2.1\Employess.Data.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\obj\Debug\netcoreapp2.1\Employess.Data.AssemblyInfoInputs.cache
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\obj\Debug\netcoreapp2.1\Employess.Data.AssemblyInfo.cs
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\obj\Debug\netcoreapp2.1\Employess.Data.dll
+\\Mac\Home\Downloads\GoodPractices-master 2\Employess.Data\obj\Debug\netcoreapp2.1\Employess.Data.pdb

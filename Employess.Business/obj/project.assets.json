@@ -500,7 +500,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.1.0": {
-      "sha512": "cZiASE81rksPJsGJ04hd/uEn6guNGAoqNsrzE/DP6AaNRPCHwTe6nZvHd4uAPj3MaVRQ3U0c6cRycMaHCYLPUQ==",
+      "sha512": "f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.1.0",
       "files": [
@@ -542,7 +542,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
+      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -754,35 +754,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/edisonmojica/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\edisonmojica\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/Employess.Core.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Downloads\\GoodPractices-master 2\\Employess.Business\\Employess.Core.csproj",
       "projectName": "Employess.Core",
-      "projectPath": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/Employess.Core.csproj",
-      "packagesPath": "/Users/edisonmojica/.nuget/packages/",
-      "outputPath": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/",
+      "projectPath": "\\\\Mac\\Home\\Downloads\\GoodPractices-master 2\\Employess.Business\\Employess.Core.csproj",
+      "packagesPath": "C:\\Users\\edisonmojica\\.nuget\\packages\\",
+      "outputPath": "\\\\Mac\\Home\\Downloads\\GoodPractices-master 2\\Employess.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/edisonmojica/.config/NuGet/NuGet.Config"
+        "C:\\Users\\edisonmojica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Data/Employess.Data.csproj": {
-              "projectPath": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Data/Employess.Data.csproj"
+            "\\\\Mac\\Home\\Downloads\\GoodPractices-master 2\\Employess.Data\\Employess.Data.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Downloads\\GoodPractices-master 2\\Employess.Data\\Employess.Data.csproj"
             }
           }
         }
