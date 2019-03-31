@@ -34,3 +34,27 @@ C:/Users/edisonmojica/source/repos/Employess/Employess.Business/obj/Debug/netcor
 /Users/edisonmojica/Downloads/Employess/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csproj.CopyComplete
 /Users/edisonmojica/Downloads/Employess/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.dll
 /Users/edisonmojica/Downloads/Employess/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.pdb
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Core.deps.json
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Core.dll
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Core.pdb
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Data.dll
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Data.pdb
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csprojAssemblyReference.cache
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csproj.CoreCompileInputs.cache
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.AssemblyInfoInputs.cache
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.AssemblyInfo.cs
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csproj.CopyComplete
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.dll
+C:/Users/ext_edmojica/Downloads/GoodPractices-master/GoodPractices-master/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.pdb
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Core.deps.json
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Core.dll
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Core.pdb
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Data.dll
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/bin/Debug/netcoreapp2.1/Employess.Data.pdb
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csprojAssemblyReference.cache
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csproj.CoreCompileInputs.cache
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.AssemblyInfoInputs.cache
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.AssemblyInfo.cs
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.csproj.CopyComplete
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.dll
+/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/Debug/netcoreapp2.1/Employess.Core.pdb

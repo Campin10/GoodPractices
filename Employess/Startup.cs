@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Employess.Data;
+using Employess.Core;
 
 namespace employess
 {
@@ -27,6 +29,9 @@ namespace employess
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+            services.AddScoped<IServices, ServiceRest>();
+            services.AddSingleton(Configuration);
+            services.AddTransient<CoreEmployess>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

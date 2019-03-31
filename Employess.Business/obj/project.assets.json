@@ -708,7 +708,6 @@
       "type": "package",
       "path": "newtonsoft.json/12.0.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -761,11 +760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/edisonmojica/Downloads/Employess/Employess.Business/Employess.Core.csproj",
+      "projectUniqueName": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/Employess.Core.csproj",
       "projectName": "Employess.Core",
-      "projectPath": "/Users/edisonmojica/Downloads/Employess/Employess.Business/Employess.Core.csproj",
+      "projectPath": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/Employess.Core.csproj",
       "packagesPath": "/Users/edisonmojica/.nuget/packages/",
-      "outputPath": "/Users/edisonmojica/Downloads/Employess/Employess.Business/obj/",
+      "outputPath": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Business/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -782,8 +781,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/edisonmojica/Downloads/Employess/Employess.Data/Employess.Data.csproj": {
-              "projectPath": "/Users/edisonmojica/Downloads/Employess/Employess.Data/Employess.Data.csproj"
+            "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Data/Employess.Data.csproj": {
+              "projectPath": "/Users/edisonmojica/Downloads/GoodPractices-master 2/Employess.Data/Employess.Data.csproj"
             }
           }
         }
