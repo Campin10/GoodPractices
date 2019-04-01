@@ -8,7 +8,6 @@ namespace Employess.Data
 {
     public class ServiceRest : IServices
     {
-
         public async Task<ResponseServices> CallService(string Url)
         {
             HttpClient client = new HttpClient();
@@ -38,8 +37,5 @@ namespace Employess.Data
             }
             return result;
         }
-
-
-
     }
 }
