@@ -1,33 +1,26 @@
-import { Component, Inject } from '@angular/core';
-import { HttpClient, HttpBackend,HttpParams } from '@angular/common/http';
+import { Component } from '@angular/core';
+import { EmployessInfo } from '../models/employees';
+import { callService } from '../service/service';
+
 @Component({
   selector: 'app-home',
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css']
 })
     export class HomeComponent {
-    public employe ={idEmploye: ""}; 
+    public employe ={idEmploye: 0}; 
     public employess: EmployessInfo[];
-     
-  constructor(public http: HttpClient, @Inject('BASE_URL') public baseUrl: string) {  
-  }
-
+    
+    constructor(public callservice: callService) {  
+    }
     public getEmployess() {
-      var params = new  HttpParams().set('idEmploye', this.employe.idEmploye);
-      this.http.get<EmployessInfo[]>(this.baseUrl + 'api/EmployessContract/GetEmployess',{params}).subscribe(result => {
-      this.employess = result;
-    }, error => console.error(error));
-  }
+      this.callservice.getService('api/EmployessContract/GetEmployess',{'idEmploye': this.employe.idEmploye}).subscribe((res)=>{
+        this.employess = res;      
+      });
+    }
 
 }
 
-interface EmployessInfo {
-    id: number;
-    name: string;
-    contractTypeName: string;
-    roleName: string;
-    roleDescription: string;
-    salary: number;
-    annualSalary: number;
-}
+
+
 

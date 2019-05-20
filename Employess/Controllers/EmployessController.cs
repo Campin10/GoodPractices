@@ -8,7 +8,7 @@ using Employess.Data;
 namespace employess.Controllers
 {
     [Route("api/[controller]")]
-    public class EmployessContractController : Controller
+    public class EmployessContractController : ControllerBase
     {
         private CoreEmployess coreEmployess;
         private readonly IConfiguration _configuration;
@@ -19,8 +19,9 @@ namespace employess.Controllers
         }
 
         [HttpGet("{id}")]
-        public IEnumerable<DtoEmployess> GetEmployess(int idEmploye){
-            List<DtoEmployess> dataEmployess = coreEmployess.GetEmployessData(_configuration["ApiData"],idEmploye);
+        public IEnumerable<DtoEmployess> GetEmployess(int idEmploye)
+        {
+            List<DtoEmployess> dataEmployess = coreEmployess.GetEmployessData(_configuration["ApiData"], idEmploye);
             return dataEmployess;
         }
     }
