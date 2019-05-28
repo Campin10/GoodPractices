@@ -1,29 +1,28 @@
 ﻿<Properties StartupConfiguration="{095604D7-3D04-477D-A123-28FF236C759C}|Default">
   <MonoDevelop.Ide.ItemProperties.Employess.Web PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.employess PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Employess/Controllers/EmployessController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Employess.Business/Factory/MonthlySalary.cs">
     <Files>
-      <File FileName="Employess.Business/CoreEmployess.cs" Line="12" Column="10" />
-      <File FileName="employess/Controllers/EmployessController.cs" Line="16" Column="10" />
-      <File FileName="employess/ClientApp/src/app/fetch-data/fetch-data.component.ts" Line="12" Column="29" />
-      <File FileName="Employess.Business/Factory/Creator.cs" Line="10" Column="1" />
-      <File FileName="Employess.Data/ServiceRest.cs" Line="19" Column="1" />
-      <File FileName="Employess.Data/Employe.cs" Line="10" Column="33" />
-      <File FileName="employess/ClientApp/src/app/fetch-data/fetch-data.component.html" Line="13" Column="11" />
-      <File FileName="employess/ClientApp/src/app/home/home.component.ts" Line="1" Column="1" />
+      <File FileName="employess/Controllers/EmployessController.cs" Line="24" Column="1" />
+      <File FileName="Employess.Business/CoreEmployess.cs" Line="24" Column="141" />
+      <File FileName="Employess.Business/Factory/ConcreteHourlySalary.cs" Line="1" Column="1" />
+      <File FileName="Employess.Business/Factory/ConcreteMonthlySalary.cs" Line="1" Column="1" />
+      <File FileName="Employess.Business/Factory/IContract.cs" Line="1" Column="1" />
+      <File FileName="Employess.Business/Factory/MonthlySalary.cs" Line="1" Column="1" />
+      <File FileName="Employess.Business/Factory/HourlySalary.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Employess" expanded="True">
             <Node name="employess" expanded="True">
-              <Node name="ClientApp" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="EmployessController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
             </Node>
             <Node name="Employess.Core" expanded="True">
-              <Node name="Factory" expanded="True" />
+              <Node name="Factory" expanded="True">
+                <Node name="MonthlySalary.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Employess.Data" expanded="True" />
           </Node>
@@ -35,21 +34,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="22" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="23" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="24" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="26" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="28" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="29" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="30" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="35" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="36" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="38" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Data/ServiceRest.cs" relfile="Employess.Data/ServiceRest.cs" line="19" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Business/CoreEmployess.cs" relfile="Employess.Business/CoreEmployess.cs" line="9" column="1" />
       <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess/Controllers/SampleDataController.cs" relfile="Employess/Controllers/SampleDataController.cs" line="20" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess.Business/CoreEmployess.cs" relfile="Employess.Business/CoreEmployess.cs" line="25" column="1" />
-      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess/Controllers/EmployessController.cs" relfile="Employess/Controllers/EmployessController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess/ErrorHandlingMiddleware.cs" relfile="Employess/ErrorHandlingMiddleware.cs" line="32" column="1" />
+      <Breakpoint file="/Users/edisonmojica/Downloads/Employess/Employess/Controllers/EmployessController.cs" relfile="Employess/Controllers/EmployessController.cs" line="24" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Employess.Core
 {
-     class HourlySalary : Contract
+       class HourlySalary : IContract
     {
-        public override decimal AnnualSalary(decimal Salary)
+        public decimal AnnualSalary(decimal Salary)
         {
-            return 120 * Salary * 12;
+            return 120 * Salary * 12;;
         }
     }
 }

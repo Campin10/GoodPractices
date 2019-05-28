@@ -21,13 +21,12 @@ namespace Employess.Core
                 Name = empl.Name,
                 ContractTypeName = empl.ContractTypeName,
                 Salary = empl.ContractTypeName == "MonthlySalaryEmployee" ? empl.MonthlySalary : empl.HourlySalary,
-                AnnualSalary = Creator.CreateContract(empl.ContractTypeName).AnnualSalary(empl.ContractTypeName == "MonthlySalaryEmployee" ? empl.MonthlySalary : empl.HourlySalary),
+                AnnualSalary = empl.ContractTypeName == "MonthlySalaryEmployee" ? new ConcreteMonthlySalary().getContract(empl.MonthlySalary) : new ConcreteHourlySalary().getContract((empl.HourlySalary)),
                 RoleName = empl.RoleName,
                 RoleDescription = empl.RoleDescription
             }).ToList());
             result = idEmploye > 0 ? result.Where(s => s.Id == idEmploye).ToList() : result;
             return result;
         }
-
     }
 }

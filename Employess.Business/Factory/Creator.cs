@@ -4,18 +4,14 @@ using System.Text;
 
 namespace Employess.Core
 {
-    public static class Creator 
+    abstract class Creator 
     {
-        public static Contract CreateContract(string TypeContract)
+        public abstract IContract FactoryMethod();
+        public decimal getContract(decimal Salary)
         {
-              switch (TypeContract)
-            {
-                case "HourlySalaryEmployee":
-                    return new HourlySalary();
-                case "MonthlySalaryEmployee":
-                    return new MonthlySalary();
-                default: return null;
-            }
+            var product = FactoryMethod();
+            var result = product.AnnualSalary(Salary);
+            return result;
         }
     }
 }
